@@ -6,7 +6,7 @@ let comparison = 3 < '4'; // Dynamically converts to number
 const equality = 3 == '3'; // The same
 
 // Boolean -> Number
-const valid = true + 2; // => 3
+// const valid = true + 2; // => 3
 const invalid = false + 2; // => 2
 
 // String -> NaN
@@ -17,3 +17,7 @@ let dummyComparison = 3 < 'string'; // Always false
 // console.log(null == false);
 // console.log(0 == false);
 // console.log('' == false);
+
+
+const valid = true;
+console.log(typeof valid.toString());

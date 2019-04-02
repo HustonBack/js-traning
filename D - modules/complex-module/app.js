@@ -1,4 +1,5 @@
 // Module with only folder name
-const { doSomething } = require('./folder-module');
+const imported = require('./folder-module');
+const { anotherStuff } = require('./folder-module/sub-module');
 
-doSomething();
+console.log(imported);

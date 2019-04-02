@@ -1,3 +1,3 @@
-const importedObject = require('./hz.js');
+const { priceTicketComponent } = require('./hz');
 
-console.log(importedObject);
+priceTicketComponent().click();

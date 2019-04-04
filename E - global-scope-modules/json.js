@@ -1,7 +1,16 @@
-const jsonString = `{ "key1": "value1", "key2": "value2" }`;
 
-const {key1, key2} = JSON.parse(jsonString);
-console.log(key1, key2);
+
+// { foo: '' }
+// { "foo": "" }
+// JSON => string
+// JSON => string, number, boolean, null, array, object
+// function
+
+// JSON.parse('sfngkbsdgvlkhjbsgk');
+
+const jsonString = `{ "key1": "valuefgsjhbgrvj srgv", "key2": "value2" }`;
+const object = JSON.parse(jsonString);
+// console.log(object);
 
 const convertable = {
   number: 1,
@@ -18,5 +27,5 @@ const notConvertable = {
     void: null,
 };
 
-JSON.stringify(convertable);
+// JSON.stringify(convertable);
 console.log(JSON.stringify(notConvertable));

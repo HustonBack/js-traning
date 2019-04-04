@@ -1,7 +1,26 @@
 console.log('Importing ...');
+// .... ///
+const privateValue = 'I am hidden to another modules';
 
-module.exports = {
-    value: 'Hello'
+function internal() {
+
+}
+
+const pt = () => {
+    return {
+        locator: '',
+        text: '',
+        click: () => {}
+    }
 };
 
-const privateValue = 'I am hidden to another modules';
+module.exports = {
+    priceTicketComponent: pt,
+    header: () => {
+        return {
+            navigate: () => {
+
+            }
+        }
+    }
+};

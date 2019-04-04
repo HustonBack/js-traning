@@ -1,3 +1,4 @@
 console.log(process.env);
 
-console.log(process.env.SECRET);
+console.log(process.env.VAULT_TOKEN);
+

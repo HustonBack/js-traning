@@ -1,3 +1,4 @@
 const { key } = require('./globals');
+global.world = 'Hello';
 
-console.log(world);
+console.log(global.world);
